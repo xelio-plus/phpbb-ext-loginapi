@@ -1,6 +1,6 @@
 phpBB Login API Extension
 =========================
-The *Login API Extension* for [phpBB 3.1][1] forums enables an easy-to-use authentication backend.
+The **Login API Extension** for [phpBB 3.1][1] forums enables an easy-to-use authentication backend.
 
 Installation
 ------------

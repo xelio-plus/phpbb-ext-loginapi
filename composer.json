@@ -1,0 +1,34 @@
+{
+    "name": "xelioplus/loginapi",
+    "type": "phpbb-extension",
+    "description": "An extension which enables a SSO gateway for other sites.",
+    "homepage": "http://github.com/xelio-plus/phpbb-ext-loginapi",
+    "version": "0.1.0",
+    "time": "2015-01-03",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "login",
+        "api"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "xelio-plus",
+            "email": "xelio-plus@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Login API (SSO)",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        }
+    }
+}

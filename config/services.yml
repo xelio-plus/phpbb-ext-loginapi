@@ -1,0 +1,13 @@
+services:
+    xelioplus.loginapi.controller:
+        class: xelioplus\loginapi\controller\api
+        arguments:
+            - @auth
+            - @config
+            - @request
+            - @user
+            - @controller.helper
+    xelioplus.loginapi.listener:
+        class: xelioplus\loginapi\event\main_listener
+        tags:
+            - { name: event.listener }

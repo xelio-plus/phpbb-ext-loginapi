@@ -1,0 +1,3 @@
+xelioplus_loginapi_login:
+    path: /login/api
+    defaults: { _controller: xelioplus.loginapi.controller:handle }
